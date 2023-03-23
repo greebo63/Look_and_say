@@ -1,5 +1,5 @@
 from look_and_say_calculator import sequence_las
 
-start_sequence=1
-some = sequence_las(1)
+start_sequence=str(input())
+some = sequence_las(start_sequence)
 print(some.raw_of_las_sequence(5))
